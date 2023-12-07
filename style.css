@@ -32,3 +32,18 @@ h1 {
 #prayButton:hover {
     background-color: #2980b9;
 }
+
+#backButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Elice DX Neolli', sans-serif; /* 웹폰트 적용 */
+}
+
+#backButton:hover {
+    background-color: #2980b9;
+}
