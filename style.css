@@ -53,3 +53,9 @@ h1 {
     margin-top: 10px; /* 랜덤 메시지와 기도 횟수 간격 조정 */
     font-family: 'Elice DX Neolli', sans-serif; /* 웹폰트 적용 */
 }
+
+.pray-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px; /* 이미지와 기도 횟수 간격 조정 */
+}
