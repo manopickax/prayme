@@ -6,6 +6,14 @@ function redirectToIndexPage() {
     window.location.href = "index.html";
 }
 
+document.getElementById("backButton").addEventListener("click", function() {
+    redirectToIndexPage();
+});
+
+function redirectToIndexPage() {
+    window.location.href = "index.html";
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     displayPrayerCount();
     displayRandomMessage();
@@ -29,6 +37,7 @@ function displayRandomMessage() {
 
     const messageElement = document.createElement("p");
     messageElement.textContent = randomMessage;
+    messageElement.classList.add("random-message");
 
     const centerContainer = document.querySelector(".center-container");
     centerContainer.insertBefore(messageElement, centerContainer.firstChild);
