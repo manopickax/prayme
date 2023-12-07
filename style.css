@@ -47,3 +47,9 @@ h1 {
 #backButton:hover {
     background-color: #2980b9;
 }
+
+.random-message {
+    font-size: 100px !important ; /* 랜덤 메시지의 크기 조정 */
+    margin-top: 10px; /* 랜덤 메시지와 기도 횟수 간격 조정 */
+    font-family: 'Elice DX Neolli', sans-serif; /* 웹폰트 적용 */
+}
