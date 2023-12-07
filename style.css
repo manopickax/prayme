@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
+    font-family: 'Elice DX Neolli', sans-serif; 
 }
 
 .center-container {
@@ -15,6 +16,7 @@ body {
 #prayButton {
     padding: 10px 20px;
     font-size: 18px;
+    font-family: 'Elice DX Neolli', sans-serif; 
     background-color: #3498db;
     color: #fff;
     border: none;
