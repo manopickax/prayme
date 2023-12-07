@@ -27,6 +27,7 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Elice DX Neolli', sans-serif; /* 웹폰트 적용 */
+    transition: background-color 0.3s;
 }
 
 #prayButton:hover {
@@ -42,6 +43,7 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Elice DX Neolli', sans-serif; /* 웹폰트 적용 */
+    transition: background-color 0.3s;
 }
 
 #backButton:hover {
